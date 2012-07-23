@@ -238,7 +238,6 @@
 		7AB535871552BE7D00171BCE /* SHKFormOptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA511B7F14C893A10022332B /* SHKFormOptionController.m */; };
 		7AB535891552BE7D00171BCE /* SHKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536FB11DBE3B9004A1712 /* SHKOAuthView.m */; };
 		7AB5358B1552BE7D00171BCE /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536FD11DBE3B9004A1712 /* SHKShareMenu.m */; };
-		7AB5358F1552BE7D00171BCE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B411DBE3B9004A1712 /* Reachability.m */; };
 		7AB804F115AC79D8004FB430 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC75E156CFBF400E3303E /* GCOAuth.m */; };
 		7AB804F315AC79D8004FB430 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC761156CFBF400E3303E /* NSData+Base64.m */; };
 		7AB804F715AC7A21004FB430 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC76E156CFBF400E3303E /* TBinaryProtocol.m */; };
@@ -419,8 +418,6 @@
 		43A536AC11DBE3B9004A1712 /* SHKSharers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SHKSharers.plist; sourceTree = "<group>"; };
 		43A536B011DBE3B9004A1712 /* SHKCustomFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCustomFormFieldCell.h; sourceTree = "<group>"; };
 		43A536B111DBE3B9004A1712 /* SHKCustomFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCustomFormFieldCell.m; sourceTree = "<group>"; };
-		43A536B311DBE3B9004A1712 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		43A536B411DBE3B9004A1712 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		43A536B811DBE3B9004A1712 /* SHKCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCopy.h; sourceTree = "<group>"; };
 		43A536B911DBE3B9004A1712 /* SHKCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCopy.m; sourceTree = "<group>"; };
 		43A536BB11DBE3B9004A1712 /* SHKMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKMail.h; sourceTree = "<group>"; };
@@ -893,7 +890,6 @@
 				43A5367211DBE3B9004A1712 /* Core */,
 				43A536B511DBE3B9004A1712 /* Sharers */,
 				43A536ED11DBE3B9004A1712 /* UI */,
-				43A536B211DBE3B9004A1712 /* Reachability */,
 				90E765A51418F2480026B656 /* ShareKit.bundle */,
 			);
 			path = ShareKit;
@@ -1018,15 +1014,6 @@
 				43A53C0B11DC0835004A1712 /* Form */,
 			);
 			path = "Customize UI";
-			sourceTree = "<group>";
-		};
-		43A536B211DBE3B9004A1712 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				43A536B311DBE3B9004A1712 /* Reachability.h */,
-				43A536B411DBE3B9004A1712 /* Reachability.m */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 		43A536B511DBE3B9004A1712 /* Sharers */ = {
@@ -1818,7 +1805,6 @@
 				7AB535871552BE7D00171BCE /* SHKFormOptionController.m in Sources */,
 				7AB535891552BE7D00171BCE /* SHKOAuthView.m in Sources */,
 				7AB5358B1552BE7D00171BCE /* SHKShareMenu.m in Sources */,
-				7AB5358F1552BE7D00171BCE /* Reachability.m in Sources */,
 				7A0F91D0156B9FF2009CB40A /* SHKDelicious.m in Sources */,
 				7A0F9252156BA5F3009CB40A /* LFHTTPRequest.m in Sources */,
 				7A0F9254156BA5F3009CB40A /* LFSiteReachability.m in Sources */,
